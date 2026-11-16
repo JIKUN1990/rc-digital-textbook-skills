@@ -1,0 +1,17 @@
+{
+  "resourceId": "formula_example_name",
+  "title": "教材曲线名称",
+  "chapter": "章节编号与标题",
+  "formulaLatex": "y=f(x)",
+  "formulaDefinitions": [{ "symbolLatex": "x", "description": "变量含义与单位。" }],
+  "modelId": "registered-model-id",
+  "parameters": [{ "key": "parameterKey", "kind": "range", "label": "参数", "unit": "单位", "description": "参数说明与适用范围。", "min": 0, "max": 10, "step": 0.1, "defaultValue": 5 }],
+  "xAxis": { "label": "横坐标", "symbolLatex": "x", "unit": "单位", "domain": [0, 10], "ticks": 10 },
+  "yAxis": { "label": "纵坐标", "symbolLatex": "y", "unit": "单位", "domain": [0, 1], "ticks": 5 },
+  "curves": [{ "id": "curve-1", "modelId": "registered-model-id", "label": "曲线图例", "color": "#2468a2" }],
+  "referenceLines": [],
+  "specialPoints": [],
+  "physicalDescription": "物理说明。",
+  "applicability": ["已核验的适用条件；未核验项须明确标注。"],
+  "provenance": { "source": "来源或待核验。", "dateReceived": "YYYY-MM-DD", "edition": "待核验", "pageOrFigure": "待核验", "permission": "待核验", "normativeVersion": "待核验", "verificationStatus": "pending" }
+}
